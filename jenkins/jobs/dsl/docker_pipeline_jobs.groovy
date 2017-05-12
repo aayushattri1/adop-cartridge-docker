@@ -146,7 +146,7 @@ environmentVariables {
 shell('''set +x
 |echo "We are printing the docker file"
 |cat Dockerfile
-|set -x''').stripMargin()
+|set -x'''.stripMargin())
 
 }
 }
